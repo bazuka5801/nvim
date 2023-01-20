@@ -1,5 +1,8 @@
 # bazuka5801 - nvim setup
 
+![image](https://user-images.githubusercontent.com/11452353/213674661-8854b4e3-5fbd-4144-a61c-2bb737cae8d6.png)
+
+
 # Commands
 - `<leader>q` - quit
 - `<leader>w` - write
