@@ -69,5 +69,8 @@ return require('packer').startup(function(use)
   use 'tpope/vim-obsession'
   use 'dhruvasagar/vim-prosession'
   use { 'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async' }
-
+  use {
+    'neoclide/coc.nvim', branch = 'release'
+  }
+  use 'NvChad/nvim-colorizer.lua'
 end)
