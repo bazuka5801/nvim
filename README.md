@@ -10,6 +10,8 @@
 - `<leader>s` - vertical split
 - `f` - switch tab cursor
 
+- `<C-o>` - go back from ex. `gd`
+
 - `>` - autoclose tag
 - `<leader>ta` - toggle boolean (true/false)
 
@@ -34,8 +36,26 @@
 
 - `[d` and `]d` - go to next/prev diagnostic
 
+# lsp vue (coc)
+- `gd` - go to definition
+- `gi` - go to implementation
+- `gr` - show references
+- `K` - show documentation
+- `<leader>a`- show diagnostic
+- `<leader>e` - show coc extensions
+- `<leader>c` - show coc commands
+- `<leader>o` - search symbols of current document
+- `<C-.>` - quickfix
+- `<C-,>` - code actions (cursor)
+- `<C-m>` - code actions (file)
+
+- *Refactoring*
+- `<leader>rn` - rename
+- `<C-s>` - select range
+
 ### Completion
--
+- `<c-r>` - accept compltion
+
 
 ### Typescript
 - `]a` and `[a` - swap argument

@@ -64,7 +64,13 @@ require('mason-lspconfig').setup_handlers({
         }
       })
     })
-  end
+  end,
+  -- volar = function()
+  --   require('lspconfig').volar.setup {
+  --     filetypes = { 'typescript', 'javascript', 'javascriptreact', 'typescriptreact', 'vue', 'json' }
+  --   }
+  -- end
+
 })
 
 vim.keymap.set('n', '<leader>o', '<cmd>TypescriptOrganizeImports<cr>')

@@ -1,9 +1,9 @@
 require 'nvim-treesitter.configs'.setup {
-  ensure_installed = { "tsx", "lua", "vim", "json", "regex", "help" },
+  ensure_installed = { "tsx", "typescript", "javascript", "vue", "lua", "vim", "json", "regex", "help" },
 
   sync_install = false,
   auto_install = true,
-  ignore_install = { "javascript" },
+  ignore_install = {},
 
   highlight = {
     enable = true,
