@@ -2,13 +2,27 @@
 
 ![image](https://user-images.githubusercontent.com/11452353/213674661-8854b4e3-5fbd-4144-a61c-2bb737cae8d6.png)
 
+# Vim helpers
+- `ciw` - remove word and go insert mode
+- [Visual] `J` and `K` move selected up/down
+- `J` - move next line to current and keep cursor
+- `F=` or `T=` - return to `=` symbol on line
+- `f(` - go to near brace
+- `df(` - remove to near brace
+- `yt,` - copy symbols to `,`
+- `vF=` - select to near `=`
+
+- `A` - insert mode on end of the line
+- `I` - insert mode on start of the line
+- `o` - to make a new line
+- `O` - to make a line above your cursor
 
 # Commands
 - `<leader>q` - quit
 - `<leader>w` - write
 
 - `<leader>s` - vertical split
-- `f` - switch tab cursor
+- `<C-f>` - switch tab cursor
 
 - `<C-o>` - go back from ex. `gd`
 
