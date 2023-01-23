@@ -28,7 +28,7 @@
 
 - `>` - autoclose tag
 - `<leader>ta` - toggle boolean (true/false)
-
+- `<C-k>` - show keymaps
 ### Search
 - `<leader>f` - files
 - `<leader>g` - grep content

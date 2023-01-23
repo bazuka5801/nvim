@@ -73,4 +73,5 @@ return require('packer').startup(function(use)
     'neoclide/coc.nvim', branch = 'release'
   }
   use 'NvChad/nvim-colorizer.lua'
+  use 'fannheyward/telescope-coc.nvim'
 end)
