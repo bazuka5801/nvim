@@ -129,6 +129,11 @@ _G.packer_plugins = {
     path = "/Users/max/.local/share/nvim/site/pack/packer/start/fidget.nvim",
     url = "https://github.com/j-hui/fidget.nvim"
   },
+  harpoon = {
+    loaded = true,
+    path = "/Users/max/.local/share/nvim/site/pack/packer/start/harpoon",
+    url = "https://github.com/ThePrimeagen/harpoon"
+  },
   ["lspkind-nvim"] = {
     loaded = true,
     path = "/Users/max/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
@@ -238,6 +243,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/max/.local/share/nvim/site/pack/packer/start/sideways.vim",
     url = "https://github.com/AndrewRadev/sideways.vim"
+  },
+  ["telescope-coc.nvim"] = {
+    loaded = true,
+    path = "/Users/max/.local/share/nvim/site/pack/packer/start/telescope-coc.nvim",
+    url = "https://github.com/fannheyward/telescope-coc.nvim"
   },
   ["telescope-vim-bookmarks.nvim"] = {
     loaded = true,
