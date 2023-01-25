@@ -33,6 +33,7 @@ opt.list = true
 
 opt.cursorline = true
 opt.termguicolors = true
+vim.wo.wrap = false
 
 vim.api.nvim_create_autocmd('TextYankPost', {
 
