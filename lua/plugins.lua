@@ -74,4 +74,8 @@ return require('packer').startup(function(use)
   }
   use 'NvChad/nvim-colorizer.lua'
   use 'fannheyward/telescope-coc.nvim'
+  use({
+    "vuki656/package-info.nvim",
+    requires = "MunifTanjim/nui.nvim",
+  })
 end)
