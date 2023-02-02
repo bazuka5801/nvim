@@ -1,5 +1,6 @@
 {
   "eslint": {
     "autoFixOnSave": true
-  }
+  },
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "typescript", "prisma"]
 }

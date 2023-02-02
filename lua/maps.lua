@@ -3,6 +3,8 @@ local keymap = vim.keymap
 
 local opts = { silent = true, noremap = true }
 
+keymap.set('i', 'jj', '<Esc>')
+
 keymap.set('n', '<leader>q', '<cmd>q<cr>')
 keymap.set('n', '<leader>w', '<cmd>w<cr>')
 

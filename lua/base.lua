@@ -20,6 +20,7 @@ opt.tabstop = 2
 opt.softtabstop = 2
 opt.shiftwidth = 2
 opt.expandtab = true
+opt.listchars:append("space:·")
 
 opt.ignorecase = true
 opt.smartcase = true
@@ -33,10 +34,10 @@ opt.list = true
 
 opt.cursorline = true
 opt.termguicolors = true
+
 vim.wo.wrap = false
 
 vim.api.nvim_create_autocmd('TextYankPost', {
-
   callback = function()
     vim.highlight.on_yank({
       higroup = 'IncSearch',
