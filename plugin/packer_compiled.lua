@@ -129,10 +129,10 @@ _G.packer_plugins = {
     path = "/Users/max/.local/share/nvim/site/pack/packer/start/fidget.nvim",
     url = "https://github.com/j-hui/fidget.nvim"
   },
-  harpoon = {
+  ["indent-blankline.nvim"] = {
     loaded = true,
-    path = "/Users/max/.local/share/nvim/site/pack/packer/start/harpoon",
-    url = "https://github.com/ThePrimeagen/harpoon"
+    path = "/Users/max/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
   ["lspkind-nvim"] = {
     loaded = true,
@@ -223,6 +223,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/max/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
+  },
+  ["package-info.nvim"] = {
+    loaded = true,
+    path = "/Users/max/.local/share/nvim/site/pack/packer/start/package-info.nvim",
+    url = "https://github.com/vuki656/package-info.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
