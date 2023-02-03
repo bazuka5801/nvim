@@ -1,6 +1,10 @@
 vim.g.mapleader = ' '
 local keymap = vim.keymap
 
+local opts = { silent = true, noremap = true }
+
+keymap.set('i', 'jj', '<Esc>')
+
 keymap.set('n', '<leader>q', '<cmd>q<cr>')
 keymap.set('n', '<leader>w', '<cmd>w<cr>')
 
@@ -32,3 +36,8 @@ keymap.set('v', '<leader>d', "\"_d")
 
 keymap.set('i', '<C-c>', "<Esc>")
 keymap.set('n', 'Q', '<nop>')
+
+keymap.set('n', '<leader>ns', "<cmd>lua require('package-info').show()<cr>", opts)
+keymap.set('n', '<leader>np', "<cmd>lua require('package-info').change_version()<cr>", opts)
+keymap.set('n', '<leader>ni', "<cmd>lua require('package-info').install()<cr>", opts)
+keymap.set('n', '<leader>nd', "<cmd>lua require('package-info').delete()<cr>", opts)

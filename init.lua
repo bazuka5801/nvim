@@ -12,6 +12,9 @@ require('p-tree')
 require('color')
 require('text')
 require('p-lualine')
+if not isLua then
+  require('p-coc')
+end
 require('p-telescope')
 require('p-bookmark')
 require('p-lspkind')
@@ -23,8 +26,6 @@ require('p-snip')
 require('p-treesitter')
 require('style')
 require('other')
+require('p-indent')
 require('p-ufo')
-
-if not isLua then
-  require('p-coc')
-end
+require('p-npm')
