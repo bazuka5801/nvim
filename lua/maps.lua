@@ -1,10 +1,15 @@
 vim.g.mapleader = ' '
 local keymap = vim.keymap
 
+-- Save key strokes (now we do not need to press shift to enter command mode).
+keymap.set({ "n", "x" }, ";", ":")
+
 local opts = { silent = true, noremap = true }
 
+-- Simple exit from insert mode
 keymap.set('i', 'jj', '<Esc>')
 
+-- Simple quit+write without command mode
 keymap.set('n', '<leader>q', '<cmd>q<cr>')
 keymap.set('n', '<leader>w', '<cmd>w<cr>')
 
