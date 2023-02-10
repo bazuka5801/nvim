@@ -92,4 +92,8 @@ return require('packer').startup(function(use)
     requires = "MunifTanjim/nui.nvim",
   })
   use "lukas-reineke/indent-blankline.nvim"
+  use {
+    'phaazon/hop.nvim',
+    branch = 'v2'
+  }
 end)
