@@ -44,6 +44,7 @@ return require('packer').startup(function(use)
   }
   use 'MattesGroeger/vim-bookmarks'
   use 'tom-anders/telescope-vim-bookmarks.nvim'
+  use { 'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
 
   -- auto completion
   use 'hrsh7th/cmp-nvim-lsp'

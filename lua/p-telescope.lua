@@ -1,8 +1,9 @@
 local builtin = require('telescope.builtin')
-vim.keymap.set('n', '<leader>f', function ()
+vim.keymap.set('n', '<leader>f', function()
   builtin.git_files({ show_untracked = true })
 end, {})
 vim.keymap.set('n', '<leader>g', builtin.live_grep, {})
+vim.keymap.set('n', '<leader>r', builtin.resume, {})
 
 local actions = require('telescope.actions')
 require('nvim-web-devicons').setup({
@@ -56,3 +57,4 @@ require('telescope').setup {
 }
 
 require('telescope').load_extension('coc')
+require('telescope').load_extension('fzf')
