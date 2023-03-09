@@ -2,5 +2,10 @@
   "eslint": {
     "autoFixOnSave": true
   },
-  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "typescript", "prisma"]
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "typescript", "prisma"],
+  "typescript.referencesCodeLens.enabled": true,
+  "volar.autoClosingTags": true,
+  "volar.autoCompleteRefs": true,
+  "volar.autoCreateQuotes": true,
+  "volar.vueserver.fullCompletionList": true
 }
