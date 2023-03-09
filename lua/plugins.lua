@@ -53,6 +53,9 @@ return require('packer').startup(function(use)
   use 'hrsh7th/cmp-cmdline'
   use 'hrsh7th/nvim-cmp'
   use 'onsails/lspkind-nvim'
+  use 'David-Kunz/cmp-npm'
+  use 'hrsh7th/cmp-calc'
+  use 'lukas-reineke/cmp-rg'
 
   use 'L3MON4D3/LuaSnip'
   use 'saadparwaiz1/cmp_luasnip'
@@ -97,4 +100,5 @@ return require('packer').startup(function(use)
     'phaazon/hop.nvim',
     branch = 'v2'
   }
+  use 'mbbill/undotree'
 end)
