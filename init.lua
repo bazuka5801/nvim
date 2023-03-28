@@ -1,5 +1,8 @@
 isLua = string.find(vim.fn.getcwd(), ".config/nvim")
 
+if vim.g.neovide then
+  require('neovide')
+end
 
 require('base')
 require('maps')
@@ -12,6 +15,7 @@ require('p-tree')
 require('color')
 require('text')
 require('p-lualine')
+require('p-barbar')
 if not isLua then
   require('p-coc')
 end

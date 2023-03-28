@@ -1,10 +1,9 @@
 require("mason").setup()
 require("mason-lspconfig").setup({
   ensure_installed = {
-    'sumneko_lua',
-    'tsserver',
-    --[[     'volar' ]]
+    'lua_ls',
+    'vls',
+    'volar'
   },
-
   automatic_installation = true,
 })

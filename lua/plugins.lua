@@ -101,4 +101,9 @@ return require('packer').startup(function(use)
     branch = 'v2'
   }
   use 'mbbill/undotree'
+  use { 'romgrk/barbar.nvim', requires = 'nvim-web-devicons' }
+  use({
+    "iamcco/markdown-preview.nvim",
+    run = function() vim.fn["mkdp#util#install"]() end,
+  })
 end)

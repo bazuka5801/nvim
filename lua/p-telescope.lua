@@ -3,7 +3,7 @@ vim.keymap.set('n', '<leader>f', function()
   builtin.git_files({ show_untracked = true })
 end, {})
 vim.keymap.set('n', '<leader>g', builtin.live_grep, {})
-vim.keymap.set('n', '<leader>r', builtin.resume, {})
+vim.keymap.set('n', '<leader>re', builtin.resume, {})
 
 local actions = require('telescope.actions')
 require('nvim-web-devicons').setup({
@@ -23,7 +23,6 @@ require('telescope').setup {
     },
     color_devicons = true,
     prompt_prefix = '🔍 ',
-
   },
   vimgrep_arguments = { "rg", "--column", "--ignore-case", "--hidden", "--multiline", "--vimgrep" },
   layout_config = {
